@@ -32,3 +32,6 @@ h1{
 form label{
     display: block;
 }
+h3{
+    text-align: center;
+}
