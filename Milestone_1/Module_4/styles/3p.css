@@ -35,3 +35,19 @@ form label{
 h3{
     text-align: center;
 }
+label > input{
+    margin-left: 15px;
+}
+label{
+    margin-bottom: 10px;
+}
+form > input{
+    display: flex;
+    justify-content: center;
+}
+.namme{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Table</h2>
+    <table>
+        <caption>Employee Salary Table</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1400</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Marh Zuckerberg</td>
+                <td>Facebook</td>
+                <td>$1000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4">Total Employee:4</th>
+        </tfoot>
+    </table>
+    <ul>
+        <li>Caption: caption</li>
+        <li>Table: table</li>
+        <li>Table head: thead</li>
+        <li>Table body: tbody</li>
+        <li>Table footer: tfoot</li>
+        <li>Table row: tr</li>
+        <li>Table data: td</li>
+        <li>Table head cell: th</li>
+    </ul>
+</body>
+</html>
