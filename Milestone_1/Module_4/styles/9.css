@@ -1,0 +1,12 @@
+.image{
+    display: block;
+    margin: 10px 5px;
+}
+
+form label{
+    display: block;
+}
+
+form input{
+    display: block;
+}
