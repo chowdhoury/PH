@@ -1,0 +1,28 @@
+.parent{
+    padding: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    height: 350px;
+    /* align-items: stretch; */
+    /* align-items: start; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+.child{
+    border: 2px solid rgb(15, 158, 160);
+    background: rgb(178, 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    /* margin: 10px 0; */
+    /* display: inline; */
+}
